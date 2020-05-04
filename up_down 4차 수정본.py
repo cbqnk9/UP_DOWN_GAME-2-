@@ -34,7 +34,7 @@ def renewBest(): #best값 갱신하는 함수 생성
     f=open("ranking.txt",'r')
     times=(f.readline())
     f.close()
-    if (times): #times에 값이 있으
+    if (times): #times에 값이 있을 때
         best=int(times[:2]) #파일의 첫번째 값을 best로 받는다.(문자열로 입력받으니 형변환 해준다)
 
 renewBest()
